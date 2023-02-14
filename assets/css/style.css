@@ -1252,7 +1252,7 @@ a.back {
     font-size: 26px;
     line-height: 51px;
     font-family: 'Font Awesome 5 free';
-    content: "\e901";
+    content: "\f060";
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
@@ -1356,7 +1356,7 @@ a.back {
     color: #212529;
     font-size: 30px;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.4;
     margin-bottom: 10px;
     text-transform: none; }
   .heading .heading-desc {
@@ -1392,7 +1392,7 @@ a.back {
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .heading .heading-title {
-    font-size: 24px; } }
+    font-size: 30px; } }
 
 @media only screen and (max-width: 1200px) {
   .heading .heading-title br {
@@ -2018,7 +2018,7 @@ a.back {
       .hero.hero-lead {
         text-align: center; }
         .hero.hero-lead .popup-contact-form {
-          max-width: 500px;
+          max-width: 90%;
           margin-right: auto;
           margin-left: auto;
           padding: 20px; } }
@@ -2144,7 +2144,9 @@ a.back {
         width: 450px; } }
     @media screen and (max-width: 991px) {
       .services .service-card {
-        margin-bottom: 50px; } }
+        margin-bottom: 50px; } 
+	  .list-unstyled.service-list .feature-panel{margin:0 30px 20px 30px}
+		}
     .services .service-card .service-card-top {
       position: absolute;
       top: 0px;
@@ -2320,6 +2322,9 @@ a.back {
     -webkit-box-shadow: 0 0 50px rgba(80, 166, 232, 0.1);
             box-shadow: 0 0 50px rgba(80, 166, 232, 0.1); }
 
+@media screen and (max-width: 991px) {
+	.testimonials {padding: 100px 30px}
+}
 /*------------------------------------*\
     #Features
 \*------------------------------------*/
@@ -2344,7 +2349,7 @@ a.back {
     @media screen and (max-width: 991px) {
       .features .feature-panel {
         max-width: 370px;
-        margin: 0 auto 50px auto; } }
+        margin: 0 auto 30px auto}}
     @media screen and (min-width: 992px) {
       .features .feature-panel {
         margin-right: 10px; } }
@@ -2478,6 +2483,11 @@ a.back {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 38px; }
+@media screen and (max-width: 991px) {
+	#cta {padding-left: 30px;padding-right: 30px}
+}
+
+
 
 /*------------------------------------*\
     #PRICING-SECTION
@@ -2831,12 +2841,12 @@ a.back {
           transform: translateY(-50%);
   outline: none; }
   @media screen and (max-width: 1200px) {
-    .carousel-navs .owl-nav [class*="owl-"] {
-      display: none; } }
+    /*.carousel-navs .owl-nav [class*="owl-"] {
+      display: none; } }*/
   .carousel-navs .owl-nav [class*="owl-"] span {
     display: none; }
   .carousel-navs .owl-nav [class*="owl-"]::before {
-    font-family: 'icomoon';
+    font-family: 'Font Awesome 5 Free';
     font-size: 30px;
     color: #50A6E8; }
   .carousel-navs .owl-nav [class*="owl-"]:hover:before {
@@ -2849,17 +2859,22 @@ a.back {
           transform: rotate(-180deg) translateY(50%); }
   @media screen and (max-width: 991px) {
     .carousel-navs .owl-nav .owl-prev {
-      left: 0px; } }
+      left: -25px; } }
   .carousel-navs .owl-nav .owl-prev::before {
-    content: '\e901'; }
+    content: '\f061'; }
 
 .carousel-navs .owl-nav .owl-next {
   right: -40px; }
   @media screen and (max-width: 991px) {
     .carousel-navs .owl-nav .owl-next {
-      right: 0px; } }
+      right: -25px; } }
   .carousel-navs .owl-nav .owl-next::before {
-    content: '\e901'; }
+    content: '\f061'; }
+
+button::before {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900;
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -2970,14 +2985,18 @@ a.back {
     margin-bottom: 50px; }
 
 .btn.btn--secondary.mx-auto i{margin-left:10px}
+.service-content-cta{margin: 30px auto;font-size:22px}
+.service-content-cta span{color:#50A6E8;font-weight:600}
+
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  .landing-hero {
-    height: auto; }
-    .landing-hero h1 {
-      font-size: 34px;
-      line-height: 50px; } }
+  .service-content-cta{margin: 0px 30px;font-size:18px;text-align: center;}
+  .landing-hero {height: auto}
+  .landing-hero h1 {font-size: 34px;line-height: 50px} 
+  .logo .motorola{max-width:80%;margin-bottom:25px}
+	
+}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
