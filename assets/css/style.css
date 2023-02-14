@@ -1251,7 +1251,7 @@ a.back {
     height: 100%;
     font-size: 26px;
     line-height: 51px;
-    font-family: 'icomoon';
+    font-family: 'Font Awesome 5 free';
     content: "\e901";
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -1882,7 +1882,7 @@ a.back {
       color: #ffffff;
       font-family: "Montserrat", sans-serif;
       font-size: 45px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.15;
       margin-bottom: 20px;
       text-transform: none; }
@@ -2119,7 +2119,7 @@ a.back {
       line-height: 1.5;
       color: #868E96;
       font-weight: 400;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       padding-left: 10px; }
       .services .service-content .service-list li:last-child {
         margin-bottom: 0; }
@@ -2180,7 +2180,8 @@ a.back {
       border-radius: 4px;
       z-index: 3;
       padding: 33px 29px;
-      cursor: pointer; }
+      }
+	  .services .service-card .service-card-bottom .counters {text-align: center}
       .services .service-card .service-card-bottom .counters .counting-holder {
         font-size: 40px;
         font-weight: 500;
@@ -2190,11 +2191,11 @@ a.back {
         .services .service-card .service-card-bottom .counters .counting-holder .counting {
           display: inline-block; }
       .services .service-card .service-card-bottom .counters .counting-desc {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
-        line-height: 30px;
+		line-height: 1.2em;
         color: #ffffff;
-         }
+		text-align:center}
 
 /*------------------------------------*\
     #Thanks
@@ -2337,7 +2338,6 @@ a.back {
     -webkit-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
-    cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
@@ -2347,7 +2347,7 @@ a.back {
         margin: 0 auto 50px auto; } }
     @media screen and (min-width: 992px) {
       .features .feature-panel {
-        margin-right: 20px; } }
+        margin-right: 10px; } }
     .features .feature-panel .feature-icon {
       color: #50A6E8;
       line-height: 1;
@@ -2368,7 +2368,7 @@ a.back {
     .features .feature-panel .feature-content h3 {
       font-size: 20px;
       line-height: 1.5;
-      margin-bottom: 9px;}
+      margin-bottom: 0}
     .features .feature-panel .feature-content p {
       font-size: 16px;
       font-weight: 400;
@@ -2968,7 +2968,8 @@ a.back {
   padding-bottom: 50px; }
   .landing-featues .feature-box {
     margin-bottom: 50px; }
-    
+
+.btn.btn--secondary.mx-auto i{margin-left:10px}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
