@@ -1897,9 +1897,9 @@ a.back {
     .hero .hero-cotainer .hero-content .hero-bio {
       color: #ffffff;
       font-family: "Roboto", sans-serif;
-      font-size: 20px;
+      font-size: 27px;
       font-weight: 400;
-      line-height: 27px;
+      line-height: 1.3em;
       margin-bottom: 42px; }
       @media screen and (max-width: 1200px) {
         .hero .hero-cotainer .hero-content .hero-bio br {
