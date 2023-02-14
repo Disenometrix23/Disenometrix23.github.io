@@ -2145,8 +2145,8 @@ a.back {
     @media screen and (max-width: 991px) {
       .services .service-card {
         margin-bottom: 50px; } 
-	  .list-unstyled.service-list .feature-panel{margin:0 30px 20px 30px}
-		}
+	  .list-unstyled.service-list .feature-panel{margin:0 30px 20px 30px;}
+	}
     .services .service-card .service-card-top {
       position: absolute;
       top: 0px;
@@ -2323,7 +2323,7 @@ a.back {
             box-shadow: 0 0 50px rgba(80, 166, 232, 0.1); }
 
 @media screen and (max-width: 991px) {
-	.testimonials {padding: 100px 30px}
+	.testimonials {padding: 100px 30px;}
 }
 /*------------------------------------*\
     #Features
@@ -2484,7 +2484,7 @@ a.back {
     line-height: 1.5;
     margin-bottom: 38px; }
 @media screen and (max-width: 991px) {
-	#cta {padding-left: 30px;padding-right: 30px}
+	#cta {padding-left: 30px;padding-right: 30px;}
 }
 
 
@@ -2691,7 +2691,7 @@ a.back {
   background-color: #212529; }
   .footer .footer-widgets-container {
     padding-top: 67px;
-    padding-bottom: 47px; }
+    padding-bottom: 0px;}
     .footer .footer-widgets-container .footer-widget {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2840,8 +2840,8 @@ a.back {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   outline: none; }
-  @media screen and (max-width: 1200px) {
-    /*.carousel-navs .owl-nav [class*="owl-"] {
+  /*@media screen and (max-width: 1200px) {
+    .carousel-navs .owl-nav [class*="owl-"] {
       display: none; } }*/
   .carousel-navs .owl-nav [class*="owl-"] span {
     display: none; }
@@ -2988,24 +2988,21 @@ button::before {
 .service-content-cta{margin: 30px auto;font-size:22px}
 .service-content-cta span{color:#50A6E8;font-weight:600}
 
+.logo .motorola{max-width:250px;margin-top:25px}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .service-content-cta{margin: 0px 30px;font-size:18px;text-align: center;}
   .landing-hero {height: auto}
   .landing-hero h1 {font-size: 34px;line-height: 50px} 
-  .logo .motorola{max-width:80%;margin-bottom:25px}
-	
+  .logo .motorola{max-width:200px}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .landing-hero {
-    height: auto;
-    padding-top: 100px; }
-    .landing-hero h1 {
-      font-size: 50px;
-      line-height: 55px; } }
+  .landing-hero {height: auto;padding-top: 100px}
+    .landing-hero h1 {font-size: 50px;line-height: 55px; } 
+}
 
 @-webkit-keyframes Up-Down {
   0% {
