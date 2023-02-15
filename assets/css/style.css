@@ -2380,6 +2380,7 @@ a.back {
       line-height: 24px;
       margin-bottom: 0;
       color: #868E96; }
+	  h3.feature-centered{padding-top:15px}
 	  i.fa-solid.fa-handshake {max-width: 50px}
 
 .features-2 {
@@ -2388,9 +2389,11 @@ a.back {
   .features-2 .feature-panel {
     margin-bottom: 10px; }
     @media screen and (max-width: 991px) {
-      .features-2 .feature-panel {
-        max-width: none;
-        margin-bottom: 20px; } }
+      .features-2 .feature-panel {max-width: none;margin-bottom: 20px; } 
+	}
+	@media screen and (max-width: 480px) {
+	  h3.feature-centered{padding-top:0}
+	}
 
 .feature-left .feature-panel {
   -webkit-transition: all 0.3s;
