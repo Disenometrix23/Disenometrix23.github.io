@@ -2380,6 +2380,7 @@ a.back {
       line-height: 24px;
       margin-bottom: 0;
       color: #868E96; }
+	  i.fa-solid.fa-handshake {max-width: 50px}
 
 .features-2 {
   padding-top: 118px;
@@ -2745,9 +2746,9 @@ a.back {
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #868E96; }
     .footer .footer-copyright-mini a {
       color: #50A6E8; }
@@ -2763,9 +2764,9 @@ a.back {
             align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #868E96; }
     @media screen and (max-width: 991px) {
       .footer .footer-copyright {
