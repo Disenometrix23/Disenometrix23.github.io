@@ -2186,7 +2186,7 @@ a.back {
 	  .services .service-card .service-card-bottom .counters {text-align: center}
       .services .service-card .service-card-bottom .counters .counting-holder {
         font-size: 40px;
-        font-weight: 500;
+        font-weight: 900;
         line-height: 50px;
         color: #ffffff;
         margin-bottom: 10px; }
@@ -2194,7 +2194,7 @@ a.back {
           display: inline-block; }
       .services .service-card .service-card-bottom .counters .counting-desc {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 800;
 		line-height: 1.2em;
         color: #ffffff;
 		text-align:center}
